@@ -1,0 +1,22 @@
+a[target="_blank"] {
+    color:#ff0000;
+}
+
+a[href^="https://www.google.com/"] {
+    color: #008000;
+}
+#second-div > p:nth-child(even) {
+    color: #ff0000;
+}
+#second-div > p:nth-child(odd) {
+    color: #0000ff;
+}
+#first-div > p::after {
+    content: "- NEW";
+    color: #e1e10d;
+    font-style: italic;
+}
+body > p:last-child:hover{
+    font-style: italic;
+    
+}
